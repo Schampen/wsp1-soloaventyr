@@ -10,7 +10,6 @@ main {
 }
 
 p {
-    font-size: 2em;
     color: white;
     font-family: 'Indie Flower', cursive;
 }
@@ -18,7 +17,6 @@ p {
 .h1 {
     color: white;
     font-family: 'Lobster', cursive;
-    font-size: 3em;
 }
 
 ul {
@@ -31,12 +29,95 @@ ul {
 
 .container {
     border-radius: 10px;
-    height: 30vh;
-    width: 80em;
 }
 
 button {
-    height: 5em;
-    width: 8em;
     font-family: 'Poppins', sans-serif;
+}
+
+/**Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) {
+    button {
+        height: 5em;
+        width: 8em;
+    }
+
+    .container {
+        height: 30vh;
+        width: 60em;
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+    
+    .h1 {
+        font-size: 1em;
+    }
+
+}
+
+/** Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) {
+    button {
+        height: 4em;
+        width: 6em;
+    }
+
+    .container {
+        height: 30vh;
+        width: 70em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+    
+    .h1 {
+        font-size: 1.25em;
+    }
+
+}
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) {
+    button {
+        height: 5em;
+        width: 8em;
+    }
+
+    .container {
+        height: 30vh;
+        width: 80em;
+    }
+
+    p {
+        font-size: 2em;
+    }
+    
+    .h1 {
+        font-size: 1.75em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    button {
+        height: 7em;
+        width: 10em;
+    }
+
+    .container {
+        height: 40vh;
+        width: 90em;
+    }
+
+    p {
+        font-size: 2.5em;
+    }
+    
+    .h1 {
+        font-size: 2.25em;
+    }
+
 }
