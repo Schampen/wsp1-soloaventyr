@@ -1,19 +1,42 @@
 body {
-    background-color: bisque;
+    background-color: black !important;
     font-size: 16px;
 }
 
 main {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
+    margin-top: 5vh;
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 2em;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+.h1 {
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 5vh;
+    padding: 0px !important;
+}
+
+.container {
+    border-radius: 10px;
+    height: 30vh;
+    width: 80em;
+}
+
+button {
+    height: 5em;
+    width: 8em;
+    font-family: 'Poppins', sans-serif;
 }
