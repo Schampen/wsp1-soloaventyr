@@ -11,7 +11,9 @@
 </head>
 <body>
     <nav class="navbar navbar-secondary bg-secondary">
+        <img class="logo" src="bild/hog.svg" alt="Logotyp, H, triangel, G">
         <span class="navbar-brand mb-0 h1">Hans och Greta lol</span>
+        <a href="?id=1"><button class="navbutton">Restart</button> </a>
     </nav>
     <main>
         <div class="container bg-danger">

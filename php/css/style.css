@@ -1,5 +1,5 @@
 body {
-    background-color: black !important;
+    background-color: black;
     font-size: 16px;
 }
 
@@ -7,6 +7,11 @@ main {
     width: 100%;
     margin: 0 auto;
     margin-top: 5vh;
+}
+
+.navbutton {
+    height: 2em;
+    width: 5em;
 }
 
 p {
@@ -35,16 +40,47 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
+
+@media (min-width: 360px) {
+    button {
+        height: 1.85em;
+        width: 4.5em;
+    }
+
+    .container {
+        height: 20vh;
+        width: 360px;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+    
+    .h1 {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        height: 69.12px;
+        width: 150px;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+}
+
 /**Small devices (landscape phones, 576px and up)**/
 @media (min-width: 576px) {
     button {
-        height: 5em;
+        height: 4em;
         width: 8em;
     }
 
     .container {
         height: 30vh;
-        width: 60em;
+        width: 70em;
     }
 
     p {
@@ -55,13 +91,18 @@ button {
         font-size: 1em;
     }
 
+    .logo {
+        height: 92.16px;
+        width: 200px;
+    }
+
 }
 
 /** Medium devices (tablets, 768px and up)**/
 @media (min-width: 768px) {
     button {
-        height: 4em;
-        width: 6em;
+        height: 5em;
+        width: 9em;
     }
 
     .container {
@@ -77,13 +118,18 @@ button {
         font-size: 1.25em;
     }
 
+    .logo {
+        height: 115.2px;
+        width: 250px;
+    }
+
 }
 
 /** Large devices (desktops, 992px and up)**/
 @media (min-width: 992px) {
     button {
-        height: 5em;
-        width: 8em;
+        height: 6em;
+        width: 10em;
     }
 
     .container {
@@ -98,13 +144,18 @@ button {
     .h1 {
         font-size: 1.75em;
     }
+
+    .logo {
+        height: 138.25px;
+        width: 300px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     button {
         height: 7em;
-        width: 10em;
+        width: 11em;
     }
 
     .container {
@@ -118,6 +169,11 @@ button {
     
     .h1 {
         font-size: 2.25em;
+    }
+
+    .logo {
+        height: 185px;
+        width: 400px;
     }
 
 }
