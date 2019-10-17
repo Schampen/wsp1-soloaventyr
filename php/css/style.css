@@ -40,6 +40,10 @@ button {
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    justify-content: space-evenly;
+}
+
 
 @media (min-width: 360px) {
     button {
@@ -48,7 +52,7 @@ button {
     }
 
     .container {
-        height: 20vh;
+        height: 50vh;
         width: 360px;
     }
 
@@ -65,10 +69,6 @@ button {
         width: 150px;
     }
 
-    .navbar {
-        width: 100%;
-    }
-
 }
 
 /**Small devices (landscape phones, 576px and up)**/
@@ -79,7 +79,7 @@ button {
     }
 
     .container {
-        height: 30vh;
+        height: 50vh;
         width: 70em;
     }
 
@@ -106,7 +106,7 @@ button {
     }
 
     .container {
-        height: 30vh;
+        height: 40vh;
         width: 70em;
     }
 
@@ -146,7 +146,7 @@ button {
     }
 
     .logo {
-        height: 138.25px;
+        height: 138.75px;
         width: 300px;
     }
 }
@@ -172,8 +172,8 @@ button {
     }
 
     .logo {
-        height: 185px;
-        width: 400px;
+        height: 161.8px;
+        width: 350px;
     }
 
 }

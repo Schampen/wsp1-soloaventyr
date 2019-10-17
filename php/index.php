@@ -2,7 +2,7 @@
 session_start();
 include 'include/db.php';
 
-$filteredId = 1;
+$filteredId = 58;
 
 if(isset($_GET['id'])) {
     $filteredId = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
@@ -24,7 +24,8 @@ $sth->bindParam(':filteredId', $filteredId);
 $sth->execute();
 $links = $sth->fetchAll(PDO::FETCH_ASSOC);
 
-$page_title = "Soloäventyr - Start";
+$page_title = "Soloäventyr";
+
 
 include 'views/index_layout.php';
 
