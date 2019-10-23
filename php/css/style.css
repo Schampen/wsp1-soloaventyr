@@ -45,28 +45,28 @@ nav {
 }
 
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
     button {
-        height: 1.85em;
+        height: 4vh;
         width: 4.5em;
     }
 
     .container {
-        height: 50vh;
+        height: 40vh;
         width: 360px;
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     
     .h1 {
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
 
     .logo {
-        height: 69.12px;
-        width: 150px;
+        height: 46.2px;
+        width: 100px;
     }
 
 }
@@ -74,7 +74,7 @@ nav {
 /**Small devices (landscape phones, 576px and up)**/
 @media (min-width: 576px) {
     button {
-        height: 4em;
+        height: 8vh;
         width: 8em;
     }
 
@@ -84,7 +84,7 @@ nav {
     }
 
     p {
-        font-size: 1.25em;
+        font-size: 1.2em;
     }
     
     .h1 {
@@ -92,8 +92,8 @@ nav {
     }
 
     .logo {
-        height: 92.16px;
-        width: 200px;
+        height: 69.3px;
+        width: 150px;
     }
 
 }
@@ -101,7 +101,7 @@ nav {
 /** Medium devices (tablets, 768px and up)**/
 @media (min-width: 768px) {
     button {
-        height: 5em;
+        height: 9vh;
         width: 9em;
     }
 
@@ -119,8 +119,8 @@ nav {
     }
 
     .logo {
-        height: 115.2px;
-        width: 250px;
+        height: 92.4px;
+        width: 200px;
     }
 
 }
@@ -128,12 +128,12 @@ nav {
 /** Large devices (desktops, 992px and up)**/
 @media (min-width: 992px) {
     button {
-        height: 6em;
+        height: 10vh;
         width: 10em;
     }
 
     .container {
-        height: 30vh;
+        height: 40vh;
         width: 80em;
     }
 
@@ -146,20 +146,20 @@ nav {
     }
 
     .logo {
-        height: 138.75px;
-        width: 300px;
+        height: 104px;
+        width: 225px;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     button {
-        height: 7em;
+        height: 11vh;
         width: 11em;
     }
 
     .container {
-        height: 40vh;
+        height: 50vh;
         width: 90em;
     }
 
@@ -172,8 +172,8 @@ nav {
     }
 
     .logo {
-        height: 161.8px;
-        width: 350px;
+        height: 115.5px;
+        width: 250px;
     }
 
 }
